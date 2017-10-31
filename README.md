@@ -3,6 +3,7 @@ Contribution Help:
 	- add in machine learning libraries
 	- add in plotting
 	- can you write something similar in a different language?
+	- Articles for how companies are analyzing stocks?
 
 copywrite Alex Irion (@alexirion10)
 created to calculate future stock market trends

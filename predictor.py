@@ -32,7 +32,6 @@ class CompanyListing:
 
 inputFile = xlrd.open_workbook("workbook1.xlsx")
 print("The number of sheets is {0}".format(inputFile.nsheets))
-# print("Worksheet name(s): {0}".format(inputFile.sheet_names()))
 dataGrid = inputFile.sheet_by_index(1)
 print("Sheet ~{0}~ is: {1}x{2}".format(dataGrid.name, dataGrid.nrows, dataGrid.ncols))
 
@@ -47,4 +46,6 @@ for companyIndex in range(len(companies)):
     curCompany = companies[companyIndex]
     print(curCompany.name + " " + curCompany.avePrice())
     print("--->" + str(curCompany.getBeginEndDiff()))
+
+
 
